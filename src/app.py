@@ -30,12 +30,12 @@ class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
 # plt.show()
 
 
-# масштабування елементів до [0..1] проміжку
+# масштабування елементів матриць до [0..1] проміжку
 train_images = train_images / 255.0
 test_images = test_images / 255.0
 
 
-# можливість проглянути перші 10 елементів
+# можливість проглянути перші 25 екземплярів
 # plt.figure(figsize=(10,10))
 # for i in range(25):
 #     plt.subplot(5,5,i+1)
